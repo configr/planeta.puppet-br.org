@@ -21,8 +21,15 @@ template_directories:
 bill_of_materials:
   bland.css
 
+
 [https://blog.configr.com/feed/]
 name = Configr
 
 [http://instruct.com.br/blog/feed/]
 name = Instruct
+
+[http://gutocarvalho.net/octopress/atom.xml]
+name = Guto Carvalho
+
+[http://arthurfurlan.org/atom.xml]
+name = Arthur Furlan
