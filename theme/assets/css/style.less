@@ -1,0 +1,106 @@
+// imports
+// 
+  @import url(http://fonts.googleapis.com/css?family=Lato:300,400,900,400italic);
+  
+// type 
+// 
+  @lato : 'Lato', Helvetica, Arial, sans-serif;
+
+// colors
+// 
+  @purple      : #423B5F;
+  @light-purple: #6C619C;
+
+// transition
+// 
+  .transition(@type: all, @duration: 0.2s, @ease: ease) {
+    transition: @type @duration @ease; /* Standard */
+    -moz-transition: @type @duration @ease; /* Firefox 4 */
+    -webkit-transition: @type @duration @ease; /* Safari and Chrome */
+    -o-transition: @type @duration @ease; /* Opera */
+    -ms-transition: @type @duration @ease; /* IE */
+  }
+
+// general
+// 
+  body {
+    background: #f8f8f8;
+  }
+
+// header
+// 
+  header {
+    background: @purple;
+    padding: 20px 0 40px;
+    color:#fff;
+    margin-bottom: 30px;
+
+    h1 {
+      font:bold 26px @lato;
+    }
+    small {
+      font:16px @lato; 
+    }
+  }
+
+// main
+// 
+  .post-block {
+    background: #fff;
+    padding: 30px 50px 30px 50px;
+    margin-bottom: 40px;
+
+    .post-title {
+      a {
+        font:bold 24px @lato;
+        color:@purple;
+        text-decoration: none;
+        .transition();
+
+        &:hover {
+          color:@light-purple;
+        }
+      }
+    }
+    .post-author {
+      margin-top: 10px;
+      display: block;
+      font:14px @lato;
+
+      a {
+        font:bold 14px @lato;
+        .transition();
+      }
+    }
+    .post-content {
+      p {
+        line-height: 170%;
+        color:#666;
+      }
+    }
+
+
+  }
+
+// footer
+// 
+  footer {
+    margin-top: 30px;
+    background: @purple;
+    padding: 20px 0 40px;
+    color:#fff;
+    text-align: center;
+
+    a {
+      font:bold 16px @lato;
+      margin: 0 10px;
+      color:#fff;
+
+      .transition();
+
+      &:hover {
+        color:lighten(@light-purple, 10%);
+        text-decoration: none;
+      }
+    }
+  }

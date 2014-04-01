@@ -1,0 +1,87 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,900,400italic);
+body {
+  background: #f8f8f8;
+}
+header {
+  background: #423b5f;
+  padding: 20px 0 40px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+header h1 {
+  font: bold 26px 'Lato', Helvetica, Arial, sans-serif;
+}
+header small {
+  font: 16px 'Lato', Helvetica, Arial, sans-serif;
+}
+.post-block {
+  background: #fff;
+  padding: 30px 50px 30px 50px;
+  margin-bottom: 40px;
+}
+.post-block .post-title a {
+  font: bold 24px 'Lato', Helvetica, Arial, sans-serif;
+  color: #423b5f;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  /* Standard */
+  -moz-transition: all 0.2s ease;
+  /* Firefox 4 */
+  -webkit-transition: all 0.2s ease;
+  /* Safari and Chrome */
+  -o-transition: all 0.2s ease;
+  /* Opera */
+  -ms-transition: all 0.2s ease;
+  /* IE */
+}
+.post-block .post-title a:hover {
+  color: #6c619c;
+}
+.post-block .post-author {
+  margin-top: 10px;
+  display: block;
+  font: 14px 'Lato', Helvetica, Arial, sans-serif;
+}
+.post-block .post-author a {
+  font: bold 14px 'Lato', Helvetica, Arial, sans-serif;
+  transition: all 0.2s ease;
+  /* Standard */
+  -moz-transition: all 0.2s ease;
+  /* Firefox 4 */
+  -webkit-transition: all 0.2s ease;
+  /* Safari and Chrome */
+  -o-transition: all 0.2s ease;
+  /* Opera */
+  -ms-transition: all 0.2s ease;
+  /* IE */
+}
+.post-block .post-content p {
+  line-height: 170%;
+  color: #666;
+}
+footer {
+  margin-top: 30px;
+  background: #423b5f;
+  padding: 20px 0 40px;
+  color: #fff;
+  text-align: center;
+}
+footer a {
+  font: bold 16px 'Lato', Helvetica, Arial, sans-serif;
+  margin: 0 10px;
+  color: #fff;
+  transition: all 0.2s ease;
+  /* Standard */
+  -moz-transition: all 0.2s ease;
+  /* Firefox 4 */
+  -webkit-transition: all 0.2s ease;
+  /* Safari and Chrome */
+  -o-transition: all 0.2s ease;
+  /* Opera */
+  -ms-transition: all 0.2s ease;
+  /* IE */
+}
+footer a:hover {
+  color: #8980b0;
+  text-decoration: none;
+}
