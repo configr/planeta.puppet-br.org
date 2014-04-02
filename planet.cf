@@ -13,14 +13,6 @@ feed_timeout    = 20
 items_per_page  = 60
 log_level       = DEBUG
 
-template_files:
-  index.html.dj
-
-template_directories:
-
-bill_of_materials:
-  bland.css
-
 
 [https://blog.configr.com/feed/]
 name = Configr
