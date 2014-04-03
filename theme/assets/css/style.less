@@ -77,30 +77,103 @@
         line-height: 170%;
         color:#666;
       }
+
+      h2 {
+        font:bold 20px @lato;
+        color:@purple;
+      }
+      h3 {
+        font:bold 18px @lato;
+        color:@purple;
+      }
+      h4 {
+        font:bold 14px @lato;
+        color:#666;
+      }
+      h5 {
+        font:14px @lato;
+        color:#666;
+      }
+      h6 {
+        font:14px @lato;
+        color:#666;
+      }
+      .highlight {
+        overflow-y: hidden;
+        overflow-x: auto;
+      }
+
+      code {
+        width: 100%;
+        overflow: scroll;
+        overflow-y: hidden;
+
+        .line {
+          white-space: nowrap;
+          display: block;
+        }
+      }
+
     }
 
 
+  }
+
+// sidebar
+// 
+  .sidebar {
+    h3 {
+      font-family: @lato;
+      color:@light-purple;
+      margin-bottom: 20px;
+    }
+
+    .blogs {
+      margin: 0;
+      padding: 0;
+
+      li {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 20px;
+
+        a {
+          font-weight: bold;  
+          color:@light-purple;
+          text-decoration: none;
+          padding: 10px 0;
+          .transition();
+
+          &:hover {
+            color:@purple;
+          }
+        }
+      }
+    }
   }
 
 // footer
 // 
   footer {
     margin-top: 30px;
-    background: @purple;
-    padding: 20px 0 40px;
+    background: #ededed;
+    padding: 40px 0 40px;
     color:#fff;
     text-align: center;
 
     a {
-      font:bold 16px @lato;
-      margin: 0 10px;
-      color:#fff;
+      text-decoration: none;
 
-      .transition();
-
-      &:hover {
-        color:lighten(@light-purple, 10%);
-        text-decoration: none;
+      .configr {
+        height: 50px;
+        width: auto;
       }
+      .instruct {
+        margin-top: 5px;
+        height: 40px;
+        width: auto;
+      }
+
     }
   }

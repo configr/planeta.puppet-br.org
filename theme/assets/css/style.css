@@ -59,17 +59,59 @@ header small {
   line-height: 170%;
   color: #666;
 }
-footer {
-  margin-top: 30px;
-  background: #423b5f;
-  padding: 20px 0 40px;
-  color: #fff;
-  text-align: center;
+.post-block .post-content h2 {
+  font: bold 20px 'Lato', Helvetica, Arial, sans-serif;
+  color: #423b5f;
 }
-footer a {
-  font: bold 16px 'Lato', Helvetica, Arial, sans-serif;
-  margin: 0 10px;
-  color: #fff;
+.post-block .post-content h3 {
+  font: bold 18px 'Lato', Helvetica, Arial, sans-serif;
+  color: #423b5f;
+}
+.post-block .post-content h4 {
+  font: bold 14px 'Lato', Helvetica, Arial, sans-serif;
+  color: #666;
+}
+.post-block .post-content h5 {
+  font: 14px 'Lato', Helvetica, Arial, sans-serif;
+  color: #666;
+}
+.post-block .post-content h6 {
+  font: 14px 'Lato', Helvetica, Arial, sans-serif;
+  color: #666;
+}
+.post-block .post-content .highlight {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+.post-block .post-content code {
+  width: 100%;
+  overflow: scroll;
+  overflow-y: hidden;
+}
+.post-block .post-content code .line {
+  white-space: nowrap;
+  display: block;
+}
+.sidebar h3 {
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  color: #6c619c;
+  margin-bottom: 20px;
+}
+.sidebar .blogs {
+  margin: 0;
+  padding: 0;
+}
+.sidebar .blogs li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.sidebar .blogs li a {
+  font-weight: bold;
+  color: #6c619c;
+  text-decoration: none;
+  padding: 10px 0;
   transition: all 0.2s ease;
   /* Standard */
   -moz-transition: all 0.2s ease;
@@ -81,7 +123,25 @@ footer a {
   -ms-transition: all 0.2s ease;
   /* IE */
 }
-footer a:hover {
-  color: #8980b0;
+.sidebar .blogs li a:hover {
+  color: #423b5f;
+}
+footer {
+  margin-top: 30px;
+  background: #ededed;
+  padding: 40px 0 40px;
+  color: #fff;
+  text-align: center;
+}
+footer a {
   text-decoration: none;
+}
+footer a .configr {
+  height: 50px;
+  width: auto;
+}
+footer a .instruct {
+  margin-top: 5px;
+  height: 40px;
+  width: auto;
 }

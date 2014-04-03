@@ -7,7 +7,9 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
   <![endif]-->
   <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://yandex.st/highlightjs/8.0/styles/default.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 <body>
   <header>
@@ -39,19 +41,31 @@
           </article>
         </TMPL_LOOP>
       </div>
+      <div class="col-xs-2 sidebar">
+        <h3>Blogs Inscritos</h3>
+        <ul class="blogs">
+          <TMPL_LOOP Channels>
+            <li><a href="<TMPL_VAR link ESCAPE="HTML">" title="<TMPL_VAR title ESCAPE="HTML">"><TMPL_VAR name></a></li>
+          </TMPL_LOOP>
+        </ul>
+      </div>
     </div>
   </main>
   <footer>
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-md-8 col-md-offset-2">
-          <p>via these fine people and places:</p>
-          <TMPL_LOOP Channels>
-            <a href="<TMPL_VAR link ESCAPE="HTML">" title="<TMPL_VAR title ESCAPE="HTML">"><TMPL_VAR name></a>
-          </TMPL_LOOP>
+          <a href="http://configr.com">
+            <img src="assets/img/configr.png" alt="" class="pull-left configr" >
+          </a>
+          <a href="http://www.instruct.com.br">
+            <img src="assets/img/instruct.png" alt="" class="pull-right instruct">
+          </a>  
         </div>
       </div>
     </div>
   </footer>
+  <script src="http://yandex.st/highlightjs/8.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>
