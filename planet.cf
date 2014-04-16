@@ -14,7 +14,7 @@ items_per_page  = 60
 log_level       = DEBUG
 
 
-[https://blog.configr.com/feed/]
+[https://blog.configr.com/feed/atom/]
 name = Configr
 
 [http://instruct.com.br/blog/feed/]
