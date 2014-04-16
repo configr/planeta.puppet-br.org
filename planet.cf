@@ -2,9 +2,9 @@
 # Django template engine. 
 
 [Planet]
-name            = Puppet Brasil
+name            = Planeta Puppet-BR
 link            = http://planeta.puppet-br.org/
-owner_name      = Puppet Brasil
+owner_name      = Puppet-BR
 owner_email     = contato@puppet-br.org
 output_theme    = /srv/planeta.puppet-br.org/www/theme
 cache_directory = /srv/planeta.puppet-br.org/www/cache
