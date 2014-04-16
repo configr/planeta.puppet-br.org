@@ -10,7 +10,7 @@ output_theme    = /srv/planeta.puppet-br.org/www/theme
 cache_directory = /srv/planeta.puppet-br.org/www/cache
 output_dir      = /srv/planeta.puppet-br.org/www
 feed_timeout    = 20
-items_per_page  = 60
+items_per_page  = 20
 log_level       = DEBUG
 
 
