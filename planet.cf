@@ -14,7 +14,7 @@ items_per_page  = 20
 log_level       = DEBUG
 
 
-[https://blog.configr.com/feed/atom/]
+[https://blog.configr.com/feed/]
 name = Configr
 
 [http://instruct.com.br/blog/feed/]
@@ -29,6 +29,5 @@ name = Arthur Furlan
 [http://paulohac.tumblr.com/rss]
 name = Paulo Henrique Cardoso
 
-[http://rafaelmendonca.tk]
+[http://rafaelmendonca.wordpress.com/feed/]
 name = Rafael Mendonça
-
