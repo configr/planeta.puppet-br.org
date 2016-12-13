@@ -20,7 +20,7 @@ name = Configr
 [http://instruct.com.br/blog/feed/]
 name = Instruct
 
-[http://gutocarvalho.net/octopress/atom.xml]
+[http://gutocarvalho.net/blog/index.xml]
 name = Guto Carvalho
 
 [http://arthurfurlan.org/atom.xml]
